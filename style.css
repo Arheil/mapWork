@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	display: grid;
+	grid-template-columns: 20vw 80vw;
+	grid-template-rows: 100vh;
+} 
+
+.map {
+	width: 100%;
+	height: 100vh;
+}
+
+.menu {
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.sidebar {
+	background-color: darkseagreen;
+}
+
+.sidebar a {
+	text-decoration: none;
+	color: black;
+}
+
+.link {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	padding-left: 20px;
+	margin-top: 20px;
+}
+
+.input {
+	margin-bottom: 15px;
+}
+
+.title {
+	text-align: center;
+}
